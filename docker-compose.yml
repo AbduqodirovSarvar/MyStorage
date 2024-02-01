@@ -18,7 +18,7 @@ services:
       dockerfile: Dockerfile
     container_name: storage_nginx
     ports:
-      - "8443:8443"
+      - "7788:7788"
     volumes:
       - /etc/letsencrypt/:/etc/letsencrypt/
     networks:
