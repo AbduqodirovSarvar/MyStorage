@@ -14,8 +14,8 @@ services:
       - storage_network  
   storage_nginx:
     build:
-      context: .
-      dockerfile: nginx/Dockerfile
+      context: ./nginx
+      dockerfile: Dockerfile
     container_name: storage_nginx
     ports:
       - "8443:8443"
